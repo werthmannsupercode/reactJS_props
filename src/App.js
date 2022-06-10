@@ -1,23 +1,16 @@
-import logo from './logo.svg';
+import ListLev13Props from './components/ListLev13Props';
+import ListLev21Props from './components/ListLev21Props';
+import ListLev32Props from './components/ListLev32Props';
+import ListLev11Map from './components/ListLev11Map';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <ListLev13Props />
+      <ListLev21Props />
+      <ListLev32Props />
+      <ListLev11Map />
     </div>
   );
 }
